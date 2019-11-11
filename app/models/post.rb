@@ -15,7 +15,7 @@ class Post < ActiveRecord::Base
   end
 
   def self.old_news
-
+    where()
   end
 
   private
