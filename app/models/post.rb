@@ -11,7 +11,7 @@ class Post < ActiveRecord::Base
   end
 
   def self.from_today
-
+    where()
   end
 
   private
