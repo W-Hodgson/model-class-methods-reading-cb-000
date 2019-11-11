@@ -15,7 +15,7 @@ class Post < ActiveRecord::Base
   end
 
   def self.old_news
-    where()
+    where("created_at ")
   end
 
   private
